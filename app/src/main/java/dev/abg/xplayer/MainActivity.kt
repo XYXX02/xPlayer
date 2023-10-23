@@ -13,8 +13,11 @@ class MainActivity : AppCompatActivity() {
 
         val musicURI = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
 
-        val text = findViewById<TextView>(R.id.textView)
-        text.text = musicURI.toString()
+        val text1 = findViewById<TextView>(R.id.textView1)
+        text1.text = musicURI.toString()
+
+        val text2 = findViewById<TextView>(R.id.textView2)
+        text2.text = "23.10.2023"
 
         val list :RecyclerView = findViewById(R.id.recyclerView)
 
